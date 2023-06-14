@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --white: #fff;
+    --dark1: #34344e;
+    --dark2: #3a415a;
+    --dark3: #566981;
+    --dark4: #89a7b1;
+    --dark5: #cbdad5;
+    --dark6: #2f2f46;
+    --cian1: #70e3ea;
+}
+
+body{
+    background-color:#4682B4; 
+    height: 100vh;
+    font-family: 'Lato';
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding: .8rem;
+    background-color: var(--dark6);
+    min-height: 50px;
+
+}
+.img-logo-main{
+    height: 100%;
+}
+.img-logo{
+    max-width: 60px;
+    height: 100%;
+}
+
+nav{
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav-links{
+    text-decoration: none;
+    color: var(--white);
+}
+
+.nav-links:hover{
+    color: var(--dark4);
+    transition: .4s;
+    text-decoration: underline;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+section{
+    padding: 4rem;
+}
+
+.primeira-section{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2rem;
+    flex-wrap: wrap;
+    align-items: center;
+    min-height: 500px;
+
+}
+.primeira-section > div{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    min-width: 300px;
+   
+}
+
+.primeira-section > div h1{
+    text-align: center;
+}
+
+h1{
+    font-size: 24px;
+    color: var(--white);
+    letter-spacing: 5px;
+    text-align: justify;
+}
+
+button,.btn-action{
+    padding: .6rem;
+    font-size: .9rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.btn-action{
+    background-color: transparent;
+    border: 1px solid var(--white);
+    color: var(--white);
+    width: 90px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.img-logo{
+    max-width: 1000px;
+    padding: 1rem;
+    height: 300px;
+    
+}
+
+.segunda-section{
+   background-color: var(--dark2);
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 2rem;
+   
+}
+
+.segunda-section ul{
+    list-style: circle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    flex-wrap: wrap;
+    
+}
+
+.segunda-section ul li{
+    color: var(--dark5);
+    letter-spacing: 2px;
+    font-weight: bold;
+
+}
+
+.segunda-section ul li:hover{
+    color: var(--dark5);
+    cursor:default;
+    
+}
+
+.title{
+    color:black;
+}
+
+.title-cd{
+    color: var(--dark5);
+}
+
+.terceira-section{
+    list-style: circle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.terceira-section ul{
+    list-style: circle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    flex-wrap: wrap;
+}
+
+.terceira-section ul li{
+    color: var(--dark5);
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.quarta-section {
+    background-color: var(--dark2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    
+}
+
+.quarta-section ul {
+    list-style: circle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    flex-wrap: wrap;
+}
+
+.quarta-section ul li{
+    color: var(--dark5);
+    letter-spacing: 2px;
+    font-weight: bold;
+} 
+
+footer{
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
+
+footer > div{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
